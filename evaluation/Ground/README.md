@@ -1,5 +1,34 @@
 # Ground: activity recognition da solo video
 
+## Notebook di valutazione ed event log
+
+`activity_recognition_evaluation.ipynb` esegue metriche per frame e per trace
+insieme all'esportazione object-centric, con un'unica cella finale. CPU sufficiente. Legge
+lo ZIP delle azioni e `DATA_ROOT/person_object_associations` (oppure uno ZIP
+indicato in ASSOCIATIONS_PATH). Usare Esegui tutto dopo aver controllato i percorsi.
+Ogni esecuzione salva una sottocartella run distinta in OUTPUT_DIR e uno ZIP unico
+contenente metriche, trace, event log e manifest degli input. Il risultato completo
+viene copiato su Drive solo dopo il successo di entrambi i calcoli: errori negli
+input non pubblicano una cartella con i soli risultati parziali.
+
+Output object-centric: `object_centric_event_log.csv` con event_id, timestamp
+relativo al video originale, end_timestamp, secondi, durata, azione, persona,
+clip e colonne `object::<tipo>` contenenti liste JSON di ID. Sono aggiunte
+`event_log_objects.csv`, `event_object_relations.csv` ed `event_log_metadata.json`.
+Il timestamp principale è l'inizio; la fine è esclusa. Nessuna data reale è
+inventata. Video differenti hanno origini temporali indipendenti.
+
+Una riga raggruppa frame consecutivi con identica azione e identico insieme di
+oggetti associati; cambi di associazione possono frammentare un'azione. Gli ID
+sono qualificati con la clip: non si effettua re-identificazione fra clip e non
+si riutilizza il mapping inferito dal GT. Si includono solo associazioni di frame
+supportate da finestre accettate, come nella visualizzazione della pipeline.
+Le relazioni sono geometriche, non attestano manipolazione. Celle oggetto vuote
+contengono `[]`; file associazioni mancanti provocano errore, senza esportazioni
+parziali. Il formato tabellare conserva relazioni multiple, ma non è una
+serializzazione OCEL 2.0. L'esportatore standard Python è
+`export_object_event_log.py`, incorporato anche nel notebook autonomo.
+
 Branch di partenza: `eval/ground`, commit `85b04ae`. Questo documento definisce
 il vocabolario candidato; non attesta prestazioni del modello o visibilità nei
 video, che non sono stati esaminati in questa analisi.

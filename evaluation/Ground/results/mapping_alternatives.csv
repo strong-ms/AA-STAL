@@ -1,0 +1,102 @@
+video,part,rank,mapping,correct_frames,support_frames
+P000103_T1_V1,1,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",492,600
+P000103_T1_V1,1,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",281,600
+P000103_T1_V1,2,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",241,600
+P000103_T1_V1,2,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",192,600
+P000103_T1_V1,3,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",125,600
+P000103_T1_V1,3,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",50,600
+P000103_T1_V1,4,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",79,600
+P000103_T1_V1,4,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",64,600
+P000103_T1_V1,5,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",205,600
+P000103_T1_V1,5,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",98,600
+P000103_T1_V1,6,1,"{""Person B"": ""person_1000"", ""Person C"": ""person_1003""}",276,600
+P000103_T1_V1,6,2,"{""Person B"": ""person_1003"", ""Person C"": ""person_1000""}",174,600
+P000103_T1_V1,7,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",262,600
+P000103_T1_V1,7,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",206,600
+P000103_T1_V1,8,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",420,600
+P000103_T1_V1,8,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",165,600
+P000103_T1_V1,9,1,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",68,68
+P000103_T1_V1,9,2,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",68,68
+P000103_T1_V2,1,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",314,600
+P000103_T1_V2,1,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",228,600
+P000103_T1_V2,2,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",154,600
+P000103_T1_V2,2,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",0,600
+P000103_T1_V2,3,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",360,600
+P000103_T1_V2,3,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",81,600
+P000103_T1_V2,4,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",248,600
+P000103_T1_V2,4,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",54,600
+P000103_T1_V2,5,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",426,600
+P000103_T1_V2,5,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",0,600
+P000103_T1_V2,6,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",434,600
+P000103_T1_V2,6,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",362,600
+P000103_T1_V2,7,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",375,600
+P000103_T1_V2,7,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",237,600
+P000103_T1_V2,8,1,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",22,22
+P000103_T1_V2,8,2,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",22,22
+P000200_T1_V1,1,1,"{""Person B"": ""person_1000""}",133,300
+P000200_T1_V1,2,1,"{""Person B"": ""person_1000""}",89,300
+P000200_T1_V1,3,1,"{""Person B"": ""person_1000""}",0,300
+P000200_T1_V1,4,1,"{""Person B"": ""person_1000""}",100,300
+P000200_T1_V1,5,1,"{""Person B"": ""person_1000""}",75,300
+P000200_T1_V1,6,1,"{""Person B"": ""person_1000""}",196,300
+P000200_T1_V1,7,1,"{""Person B"": ""person_1000""}",95,300
+P000200_T1_V1,8,1,"{""Person B"": ""person_1000""}",238,300
+P000200_T1_V1,9,1,"{""Person B"": ""person_1000""}",74,101
+P000301_T1_V1,1,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",379,600
+P000301_T1_V1,1,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",240,600
+P000301_T1_V1,2,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",319,600
+P000301_T1_V1,2,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",89,600
+P000301_T1_V1,3,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",255,600
+P000301_T1_V1,3,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",30,600
+P000301_T1_V1,4,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",293,600
+P000301_T1_V1,4,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",31,600
+P000301_T1_V1,5,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",487,600
+P000301_T1_V1,5,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",171,600
+P000301_T1_V1,6,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",374,600
+P000301_T1_V1,6,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",75,600
+P000301_T1_V1,7,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",246,600
+P000301_T1_V1,7,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",21,600
+P000301_T1_V1,8,1,"{""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",316,402
+P000301_T1_V1,8,2,"{""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",181,402
+P010203_T1_V1,1,1,"{""Person A"": ""person_1001"", ""Person B"": ""person_1002"", ""Person C"": ""person_1000""}",515,900
+P010203_T1_V1,1,2,"{""Person A"": ""person_1001"", ""Person B"": ""person_1000"", ""Person C"": ""person_1002""}",502,900
+P010203_T1_V1,1,3,"{""Person A"": ""person_1000"", ""Person B"": ""person_1002"", ""Person C"": ""person_1001""}",498,900
+P010203_T1_V1,1,4,"{""Person A"": ""person_1002"", ""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",490,900
+P010203_T1_V1,1,5,"{""Person A"": ""person_1002"", ""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",424,900
+P010203_T1_V1,1,6,"{""Person A"": ""person_1000"", ""Person B"": ""person_1001"", ""Person C"": ""person_1002""}",419,900
+P010203_T1_V1,2,1,"{""Person A"": ""person_1001"", ""Person B"": ""person_1002"", ""Person C"": ""person_1000""}",461,900
+P010203_T1_V1,2,2,"{""Person A"": ""person_1001"", ""Person B"": ""person_1000"", ""Person C"": ""person_1002""}",347,900
+P010203_T1_V1,2,3,"{""Person A"": ""person_1002"", ""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",211,900
+P010203_T1_V1,2,4,"{""Person A"": ""person_1000"", ""Person B"": ""person_1002"", ""Person C"": ""person_1001""}",200,900
+P010203_T1_V1,2,5,"{""Person A"": ""person_1002"", ""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",159,900
+P010203_T1_V1,2,6,"{""Person A"": ""person_1000"", ""Person B"": ""person_1001"", ""Person C"": ""person_1002""}",138,900
+P010203_T1_V1,3,1,"{""Person A"": ""person_1001"", ""Person B"": ""person_1002"", ""Person C"": ""person_1000""}",294,900
+P010203_T1_V1,3,2,"{""Person A"": ""person_1001"", ""Person B"": ""person_1000"", ""Person C"": ""person_1002""}",233,900
+P010203_T1_V1,3,3,"{""Person A"": ""person_1000"", ""Person B"": ""person_1002"", ""Person C"": ""person_1001""}",189,900
+P010203_T1_V1,3,4,"{""Person A"": ""person_1002"", ""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",174,900
+P010203_T1_V1,3,5,"{""Person A"": ""person_1002"", ""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",129,900
+P010203_T1_V1,3,6,"{""Person A"": ""person_1000"", ""Person B"": ""person_1001"", ""Person C"": ""person_1002""}",83,900
+P010203_T1_V1,4,1,"{""Person A"": ""person_1001"", ""Person B"": ""person_1002"", ""Person C"": ""person_1000""}",429,900
+P010203_T1_V1,4,2,"{""Person A"": ""person_1000"", ""Person B"": ""person_1002"", ""Person C"": ""person_1001""}",284,900
+P010203_T1_V1,4,3,"{""Person A"": ""person_1002"", ""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",273,900
+P010203_T1_V1,4,4,"{""Person A"": ""person_1001"", ""Person B"": ""person_1000"", ""Person C"": ""person_1002""}",202,900
+P010203_T1_V1,4,5,"{""Person A"": ""person_1002"", ""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",189,900
+P010203_T1_V1,4,6,"{""Person A"": ""person_1000"", ""Person B"": ""person_1001"", ""Person C"": ""person_1002""}",141,900
+P010203_T1_V1,5,1,"{""Person A"": ""person_1001"", ""Person B"": ""person_1002"", ""Person C"": ""person_1000""}",648,900
+P010203_T1_V1,5,2,"{""Person A"": ""person_1001"", ""Person B"": ""person_1000"", ""Person C"": ""person_1002""}",604,900
+P010203_T1_V1,5,3,"{""Person A"": ""person_1000"", ""Person B"": ""person_1002"", ""Person C"": ""person_1001""}",269,900
+P010203_T1_V1,5,4,"{""Person A"": ""person_1002"", ""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",255,900
+P010203_T1_V1,5,5,"{""Person A"": ""person_1002"", ""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",255,900
+P010203_T1_V1,5,6,"{""Person A"": ""person_1000"", ""Person B"": ""person_1001"", ""Person C"": ""person_1002""}",225,900
+P010203_T1_V1,6,1,"{""Person A"": ""person_1001"", ""Person B"": ""person_1002"", ""Person C"": ""person_1000""}",631,900
+P010203_T1_V1,6,2,"{""Person A"": ""person_1000"", ""Person B"": ""person_1002"", ""Person C"": ""person_1001""}",338,900
+P010203_T1_V1,6,3,"{""Person A"": ""person_1002"", ""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",270,900
+P010203_T1_V1,6,4,"{""Person A"": ""person_1001"", ""Person B"": ""person_1000"", ""Person C"": ""person_1002""}",166,900
+P010203_T1_V1,6,5,"{""Person A"": ""person_1002"", ""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",75,900
+P010203_T1_V1,6,6,"{""Person A"": ""person_1000"", ""Person B"": ""person_1001"", ""Person C"": ""person_1002""}",68,900
+P010203_T1_V1,7,1,"{""Person A"": ""person_1001"", ""Person B"": ""person_1002"", ""Person C"": ""person_1000""}",689,813
+P010203_T1_V1,7,2,"{""Person A"": ""person_1001"", ""Person B"": ""person_1000"", ""Person C"": ""person_1002""}",383,813
+P010203_T1_V1,7,3,"{""Person A"": ""person_1002"", ""Person B"": ""person_1001"", ""Person C"": ""person_1000""}",301,813
+P010203_T1_V1,7,4,"{""Person A"": ""person_1000"", ""Person B"": ""person_1002"", ""Person C"": ""person_1001""}",207,813
+P010203_T1_V1,7,5,"{""Person A"": ""person_1002"", ""Person B"": ""person_1000"", ""Person C"": ""person_1001""}",126,813
+P010203_T1_V1,7,6,"{""Person A"": ""person_1000"", ""Person B"": ""person_1001"", ""Person C"": ""person_1002""}",76,813
