@@ -1,0 +1,248 @@
+source_file,sheet,row,person,verb,noun,collaborative_action,collaborative_person,start,end
+P000103_T1_V1.xlsm,P000103_T1_V1,5,Person B,Idle,,,,0,291
+P000103_T1_V1.xlsm,P000103_T1_V1,6,Person B,Grasp,Shaker,,,292,313
+P000103_T1_V1.xlsm,P000103_T1_V1,7,Person B,Hold,Shaker,Collaborative_Twist,with Person C,314,377
+P000103_T1_V1.xlsm,P000103_T1_V1,8,Person B,Hold,Shaker,,,378,438
+P000103_T1_V1.xlsm,P000103_T1_V1,9,Person B,Hold,Shaker,Collaborative_Drop,with Person C,439,473
+P000103_T1_V1.xlsm,P000103_T1_V1,10,Person B,Hold,Shaker,,,474,549
+P000103_T1_V1.xlsm,P000103_T1_V1,11,Person B,Hold,Shaker,Collaborative_Drop,with Person C,550,600
+P000103_T1_V1.xlsm,P000103_T1_V1,12,Person B,Hold,Shaker,,,601,655
+P000103_T1_V1.xlsm,P000103_T1_V1,13,Person B,Hold,Shaker,Collaborative_Drop,with Person C,656,694
+P000103_T1_V1.xlsm,P000103_T1_V1,14,Person B,Place_Down,Shaker,,,695,741
+P000103_T1_V1.xlsm,P000103_T1_V1,15,Person B,Handover,Muddler,Collaborative_Handover,with Person C,742,783
+P000103_T1_V1.xlsm,P000103_T1_V1,16,Person B,Squash,,,,784,1061
+P000103_T1_V1.xlsm,P000103_T1_V1,17,Person B,Place_Down,Muddler,,,1062,1107
+P000103_T1_V1.xlsm,P000103_T1_V1,18,Person B,Grasp,Alcohol_Bottle,,,1108,1135
+P000103_T1_V1.xlsm,P000103_T1_V1,19,Person B,Hold,Alcohol_Bottle,Collaborative_Twist,with Person C,1136,1261
+P000103_T1_V1.xlsm,P000103_T1_V1,20,Person B,Pour,Alcohol,,,1262,1378
+P000103_T1_V1.xlsm,P000103_T1_V1,21,Person B,Place_Down,Alcohol_Bottle,,,1379,1445
+P000103_T1_V1.xlsm,P000103_T1_V1,22,Person B,Grasp,Shaker,,,1446,1492
+P000103_T1_V1.xlsm,P000103_T1_V1,23,Person B,Hold,Shaker,Collaborative_Twist,with Person C,1493,1648
+P000103_T1_V1.xlsm,P000103_T1_V1,24,Person B,Hold,Shaker,,,1649,1670
+P000103_T1_V1.xlsm,P000103_T1_V1,25,Person B,Shake,Shaker,,,1671,1930
+P000103_T1_V1.xlsm,P000103_T1_V1,26,Person B,Hold,Shaker,Collaborative_Twist,with Person C,1931,2054
+P000103_T1_V1.xlsm,P000103_T1_V1,27,Person B,Pour,Cocktail,,,2055,2309
+P000103_T1_V1.xlsm,P000103_T1_V1,28,Person B,Place_Down,Shaker,,,2310,2344
+P000103_T1_V1.xlsm,P000103_T1_V1,29,Person B,Idle,,,,2345,2433
+P000103_T1_V1.xlsm,P000103_T1_V1,32,Person C,Idle,,,,0,145
+P000103_T1_V1.xlsm,P000103_T1_V1,33,Person C,Grasp,Knife,,,146,190
+P000103_T1_V1.xlsm,P000103_T1_V1,34,Person C,Cut,Lime,,,191,259
+P000103_T1_V1.xlsm,P000103_T1_V1,35,Person C,Place_Down,Knife,,,260,307
+P000103_T1_V1.xlsm,P000103_T1_V1,36,Person C,Twist,Shaker_Lid,Collaborative_Twist,with Person B,308,370
+P000103_T1_V1.xlsm,P000103_T1_V1,37,Person C,Place_Down,Shaker_Lid,,,371,410
+P000103_T1_V1.xlsm,P000103_T1_V1,38,Person C,Grasp,Sugar,,,411,440
+P000103_T1_V1.xlsm,P000103_T1_V1,39,Person C,Drop,Sugar,Collaborative_Drop,with Person B,441,478
+P000103_T1_V1.xlsm,P000103_T1_V1,40,Person C,Grasp,Lime,,,479,549
+P000103_T1_V1.xlsm,P000103_T1_V1,41,Person C,Drop,Lime,Collaborative_Drop,with Person B,550,616
+P000103_T1_V1.xlsm,P000103_T1_V1,42,Person C,Grasp,Ice,,,617,656
+P000103_T1_V1.xlsm,P000103_T1_V1,43,Person C,Drop,Ice,Collaborative_Drop,with Person B,657,708
+P000103_T1_V1.xlsm,P000103_T1_V1,44,Person C,Grasp,Muddler,,,709,740
+P000103_T1_V1.xlsm,P000103_T1_V1,45,Person C,Handover,Muddler,Collaborative_Handover,with Person B,741,794
+P000103_T1_V1.xlsm,P000103_T1_V1,46,Person C,Idle,,,,795,1131
+P000103_T1_V1.xlsm,P000103_T1_V1,47,Person C,Twist,Bottle_Cap,Collaborative_Twist,with Person B,1132,1252
+P000103_T1_V1.xlsm,P000103_T1_V1,48,Person C,Place_Down,Bottle_Cap,,,1253,1283
+P000103_T1_V1.xlsm,P000103_T1_V1,49,Person C,Idle,,,,1284,1463
+P000103_T1_V1.xlsm,P000103_T1_V1,50,Person C,Grasp,Shaker_Lid,,,1464,1492
+P000103_T1_V1.xlsm,P000103_T1_V1,51,Person C,Twist,Shaker_Lid,Collaborative_Twist,with Person B,1493,1649
+P000103_T1_V1.xlsm,P000103_T1_V1,52,Person C,Idle,,,,1650,1937
+P000103_T1_V1.xlsm,P000103_T1_V1,53,Person C,Twist,Shaker_Lid,Collaborative_Twist,with Person B,1938,2028
+P000103_T1_V1.xlsm,P000103_T1_V1,54,Person C,Place_Down,Shaker_Lid,,,2029,2056
+P000103_T1_V1.xlsm,P000103_T1_V1,55,Person C,Idle,,,,2057,2433
+P000103_T1_V2.xlsm,Annotations,5,Person B,Idle,,,,0,144
+P000103_T1_V2.xlsm,Annotations,6,Person B,Grasp,Knife,,,145,166
+P000103_T1_V2.xlsm,Annotations,7,Person B,Push,Lime,,,167,191
+P000103_T1_V2.xlsm,Annotations,8,Person B,Cut,Lime,,,192,253
+P000103_T1_V2.xlsm,Annotations,9,Person B,Place_Down,Knife,,,254,283
+P000103_T1_V2.xlsm,Annotations,10,Person B,Grasp,Lime,,,284,307
+P000103_T1_V2.xlsm,Annotations,11,Person B,Drop,Lime,Collaborative_Drop,with Person C,308,350
+P000103_T1_V2.xlsm,Annotations,12,Person B,Idle,,,,351,424
+P000103_T1_V2.xlsm,Annotations,13,Person B,Grasp,Muddler,,,425,455
+P000103_T1_V2.xlsm,Annotations,14,Person B,Handover,Muddler,Collaborative_Handover,with Person C,456,505
+P000103_T1_V2.xlsm,Annotations,15,Person B,Idle,,,,506,564
+P000103_T1_V2.xlsm,Annotations,16,Person B,Grasp,Alcohol_Bottle,,,565,594
+P000103_T1_V2.xlsm,Annotations,17,Person B,Twist,Bottle_Cap,,,595,673
+P000103_T1_V2.xlsm,Annotations,18,Person B,Place_Down,Bottle_Cap,,,674,696
+P000103_T1_V2.xlsm,Annotations,19,Person B,Hold,Alcohol_Bottle,,,697,727
+P000103_T1_V2.xlsm,Annotations,20,Person B,Pour,Alcohol,Collaborative_Pour,with Person C,728,978
+P000103_T1_V2.xlsm,Annotations,21,Person B,Grasp,Bottle_Cap,,,979,1001
+P000103_T1_V2.xlsm,Annotations,22,Person B,Twist,Bottle_Cap,,,1002,1118
+P000103_T1_V2.xlsm,Annotations,23,Person B,Place_Down,Alcohol_Bottle,,,1119,1167
+P000103_T1_V2.xlsm,Annotations,24,Person B,Idle,,,,1168,1323
+P000103_T1_V2.xlsm,Annotations,25,Person B,Grasp,Glass,,,1324,1377
+P000103_T1_V2.xlsm,Annotations,26,Person B,Hold,Glass,,,1378,1600
+P000103_T1_V2.xlsm,Annotations,27,Person B,Hold,Glass,Collaborative_Pour,with Person C,1601,1771
+P000103_T1_V2.xlsm,Annotations,28,Person B,Place_Down,Glass,,,1772,1832
+P000103_T1_V2.xlsm,Annotations,29,Person B,Idle,,,,1833,2110
+P000103_T1_V2.xlsm,Annotations,32,Person C,Idle,,,,0,121
+P000103_T1_V2.xlsm,Annotations,33,Person C,Grasp,Shaker,,,122,148
+P000103_T1_V2.xlsm,Annotations,34,Person C,Twist,Shaker_Lid,,,149,228
+P000103_T1_V2.xlsm,Annotations,35,Person C,Place_Down,Shaker_Lid,,,229,261
+P000103_T1_V2.xlsm,Annotations,36,Person C,Hold,Shaker,,,262,299
+P000103_T1_V2.xlsm,Annotations,37,Person C,Hold,Shaker,Collaborative_Drop,with Person B,300,350
+P000103_T1_V2.xlsm,Annotations,38,Person C,Grasp,Sugar,,,351,398
+P000103_T1_V2.xlsm,Annotations,39,Person C,Drop,Sugar,,,399,463
+P000103_T1_V2.xlsm,Annotations,40,Person C,Handover,Muddler,,,464,497
+P000103_T1_V2.xlsm,Annotations,41,Person C,Squash,,,,498,675
+P000103_T1_V2.xlsm,Annotations,42,Person C,Place_Down,Muddler,,,676,698
+P000103_T1_V2.xlsm,Annotations,43,Person C,Grasp,Shaker,,,699,728
+P000103_T1_V2.xlsm,Annotations,44,Person C,Hold,Shaker,Collaborative_Pour,with Person B,729,1023
+P000103_T1_V2.xlsm,Annotations,45,Person C,Place_Down,Shaker,,,1024,1076
+P000103_T1_V2.xlsm,Annotations,46,Person C,Grasp,Shaker_Lid,,,1077,1124
+P000103_T1_V2.xlsm,Annotations,47,Person C,Twist,Shaker_Lid,,,1125,1200
+P000103_T1_V2.xlsm,Annotations,48,Person C,Shake,Shaker,,,1201,1449
+P000103_T1_V2.xlsm,Annotations,49,Person C,Twist,Shaker_Lid,,,1450,1526
+P000103_T1_V2.xlsm,Annotations,50,Person C,Place_Down,Shaker_Lid,,,1527,1579
+P000103_T1_V2.xlsm,Annotations,51,Person C,Grasp,Shaker,,,1580,1600
+P000103_T1_V2.xlsm,Annotations,52,Person C,Hold,Shaker,Collaborative_Pour,with Person B,1601,1782
+P000103_T1_V2.xlsm,Annotations,53,Person C,Hold,Shaker,Collaborative_Pour,with Person B,1783,1952
+P000103_T1_V2.xlsm,Annotations,54,Person C,Place_Down,Shaker,,,1953,2009
+P000103_T1_V2.xlsm,Annotations,55,Person C,Idle,,,,2010,2110
+P000200_T1_V1.xlsm,Annotations,5,Person B,Idle,,,,0,106
+P000200_T1_V1.xlsm,Annotations,6,Person B,Grasp,Knife,,,107,158
+P000200_T1_V1.xlsm,Annotations,7,Person B,Cut,Lime,,,159,246
+P000200_T1_V1.xlsm,Annotations,8,Person B,Place_Down,Knife,,,247,375
+P000200_T1_V1.xlsm,Annotations,9,Person B,Push,Cutting_Board,,,376,434
+P000200_T1_V1.xlsm,Annotations,10,Person B,Grasp,Shaker,,,435,481
+P000200_T1_V1.xlsm,Annotations,11,Person B,Twist,Shaker_Lid,,,482,544
+P000200_T1_V1.xlsm,Annotations,12,Person B,Place_Down,Shaker_Lid,,,545,589
+P000200_T1_V1.xlsm,Annotations,13,Person B,Grasp,Sugar_Container,,,590,609
+P000200_T1_V1.xlsm,Annotations,14,Person B,Place_Down,Sugar_Container,,,610,638
+P000200_T1_V1.xlsm,Annotations,15,Person B,Grasp,Sugar,,,639,672
+P000200_T1_V1.xlsm,Annotations,16,Person B,Drop,Sugar,,,673,701
+P000200_T1_V1.xlsm,Annotations,17,Person B,Grasp,Ice,,,702,781
+P000200_T1_V1.xlsm,Annotations,18,Person B,Drop,Ice,,,782,809
+P000200_T1_V1.xlsm,Annotations,19,Person B,Grasp,Ice,,,810,852
+P000200_T1_V1.xlsm,Annotations,20,Person B,Drop,Ice,,,853,879
+P000200_T1_V1.xlsm,Annotations,21,Person B,Grasp,Lime,,,880,910
+P000200_T1_V1.xlsm,Annotations,22,Person B,Drop,Lime,,,911,941
+P000200_T1_V1.xlsm,Annotations,23,Person B,Place_Down,Shaker,,,942,968
+P000200_T1_V1.xlsm,Annotations,24,Person B,Grasp,Alcohol_Bottle,,,969,1007
+P000200_T1_V1.xlsm,Annotations,25,Person B,Twist,Bottle_Cap,,,1008,1100
+P000200_T1_V1.xlsm,Annotations,26,Person B,Place_Down,Bottle_Cap,,,1101,1129
+P000200_T1_V1.xlsm,Annotations,27,Person B,Pour,Alcohol,,,1130,1285
+P000200_T1_V1.xlsm,Annotations,28,Person B,Grasp,Bottle_Cap,,,1286,1324
+P000200_T1_V1.xlsm,Annotations,29,Person B,Twist,Bottle_Cap,,,1325,1433
+P000200_T1_V1.xlsm,Annotations,30,Person B,Place_Down,Alcohol_Bottle,,,1434,1482
+P000200_T1_V1.xlsm,Annotations,31,Person B,Grasp,Shaker,,,1483,1534
+P000200_T1_V1.xlsm,Annotations,32,Person B,Twist,Shaker_Lid,,,1535,1603
+P000200_T1_V1.xlsm,Annotations,33,Person B,Shake,Shaker,,,1604,1894
+P000200_T1_V1.xlsm,Annotations,34,Person B,Twist,Shaker_Lid,,,1895,1970
+P000200_T1_V1.xlsm,Annotations,35,Person B,Place_Down,Shaker_Lid,,,1971,2010
+P000200_T1_V1.xlsm,Annotations,36,Person B,Place_Down,Shaker,,,2011,2046
+P000200_T1_V1.xlsm,Annotations,37,Person B,Grasp,Glass,,,2047,2070
+P000200_T1_V1.xlsm,Annotations,38,Person B,Place_Down,Glass,,,2071,2094
+P000200_T1_V1.xlsm,Annotations,39,Person B,Grasp,Shaker,,,2095,2132
+P000200_T1_V1.xlsm,Annotations,40,Person B,Pour,Cocktail,,,2133,2370
+P000200_T1_V1.xlsm,Annotations,41,Person B,Place_Down,Shaker,,,2371,2426
+P000200_T1_V1.xlsm,Annotations,42,Person B,Idle,,,,2427,2500
+P000301_T1_V1.xlsm,Annotations,5,Person B,Idle,,,,0,75
+P000301_T1_V1.xlsm,Annotations,6,Person B,Grasp,Shaker,,,76,136
+P000301_T1_V1.xlsm,Annotations,7,Person B,Handover,Shaker,Collaborative_Handover,with Person C,137,185
+P000301_T1_V1.xlsm,Annotations,8,Person B,Twist,Shaker_Lid,Collaborative_Twist,with Person C,186,259
+P000301_T1_V1.xlsm,Annotations,9,Person B,Place_Down,Shaker_Lid,,,260,294
+P000301_T1_V1.xlsm,Annotations,10,Person B,Grasp,Knife,,,295,323
+P000301_T1_V1.xlsm,Annotations,11,Person B,Cut,Lime,,,324,414
+P000301_T1_V1.xlsm,Annotations,12,Person B,Place_Down,Knife,,,415,428
+P000301_T1_V1.xlsm,Annotations,13,Person B,Grasp,Lime,,,429,460
+P000301_T1_V1.xlsm,Annotations,14,Person B,Drop,Lime,Collaborative_Drop,with Person C,461,490
+P000301_T1_V1.xlsm,Annotations,15,Person B,Grasp,Sugar,,,491,554
+P000301_T1_V1.xlsm,Annotations,16,Person B,Drop,Sugar,Collaborative_Drop,with Person C,555,643
+P000301_T1_V1.xlsm,Annotations,17,Person B,Grasp,Muddler,,,644,709
+P000301_T1_V1.xlsm,Annotations,18,Person B,Squash,,,,710,932
+P000301_T1_V1.xlsm,Annotations,19,Person B,Place_Down,Muddler,,,933,1000
+P000301_T1_V1.xlsm,Annotations,20,Person B,Grasp,Alcohol_Bottle,,,1001,1046
+P000301_T1_V1.xlsm,Annotations,21,Person B,Twist,Bottle_Cap,,,1047,1171
+P000301_T1_V1.xlsm,Annotations,22,Person B,Pour,Alcohol,Collaborative_Pour,with Person C,1172,1357
+P000301_T1_V1.xlsm,Annotations,23,Person B,Hold,Alcohol_Bottle,,,1358,1454
+P000301_T1_V1.xlsm,Annotations,24,Person B,Twist,Bottle_Cap,,,1455,1642
+P000301_T1_V1.xlsm,Annotations,25,Person B,Place_Down,Alcohol_Bottle,,,1643,1687
+P000301_T1_V1.xlsm,Annotations,26,Person B,Idle,,,,1688,1849
+P000301_T1_V1.xlsm,Annotations,27,Person B,Twist,Shaker_Lid,,,1850,1908
+P000301_T1_V1.xlsm,Annotations,28,Person B,Place_Down,Shaker,,,1909,1934
+P000301_T1_V1.xlsm,Annotations,29,Person B,Idle,,,,1935,2042
+P000301_T1_V1.xlsm,Annotations,30,Person B,Handover,Shaker,Collaborative_Handover,with Person C,2043,2069
+P000301_T1_V1.xlsm,Annotations,31,Person B,Pour,Cocktail,,,2070,2177
+P000301_T1_V1.xlsm,Annotations,32,Person B,Place_Down,Shaker,,,2178,2215
+P000301_T1_V1.xlsm,Annotations,33,Person B,Idle,,,,2216,2300
+P000301_T1_V1.xlsm,Annotations,36,Person C,Idle,,,,0,130
+P000301_T1_V1.xlsm,Annotations,37,Person C,Handover,Shaker,Collaborative_Handover,with Person B,131,193
+P000301_T1_V1.xlsm,Annotations,38,Person C,Hold,Shaker,Collaborative_Twist,with Person B,194,252
+P000301_T1_V1.xlsm,Annotations,39,Person C,Hold,Shaker,,,253,459
+P000301_T1_V1.xlsm,Annotations,40,Person C,Hold,Shaker,Collaborative_Drop,with Person B,460,487
+P000301_T1_V1.xlsm,Annotations,41,Person C,Hold,Shaker,,,488,550
+P000301_T1_V1.xlsm,Annotations,42,Person C,Hold,Shaker,Collaborative_Drop,,551,583
+P000301_T1_V1.xlsm,Annotations,43,Person C,Place_Down,Shaker,,,584,638
+P000301_T1_V1.xlsm,Annotations,44,Person C,Idle,,,,639,1058
+P000301_T1_V1.xlsm,Annotations,45,Person C,Grasp,Shaker,,,1059,1123
+P000301_T1_V1.xlsm,Annotations,46,Person C,Hold,Shaker,Collaborative_Pour,with Person B,1124,1346
+P000301_T1_V1.xlsm,Annotations,47,Person C,Hold,Shaker,,,1347,1393
+P000301_T1_V1.xlsm,Annotations,48,Person C,Place_Down,Shaker,,,1394,1425
+P000301_T1_V1.xlsm,Annotations,49,Person C,Grasp,Shaker_Lid,,,1426,1444
+P000301_T1_V1.xlsm,Annotations,50,Person C,Twist,Shaker_Lid,,,1445,1600
+P000301_T1_V1.xlsm,Annotations,51,Person C,Shake,Shaker,,,1601,1853
+P000301_T1_V1.xlsm,Annotations,52,Person C,Hold,Shaker,Collaborative_Twist,with Person B,1854,1907
+P000301_T1_V1.xlsm,Annotations,53,Person C,Pour,Cocktail,,,1908,2029
+P000301_T1_V1.xlsm,Annotations,54,Person C,Handover,Shaker,Collaborative_Handover,with Person B,2030,2081
+P000301_T1_V1.xlsm,Annotations,55,Person C,Idle,,,,2082,2300
+P010203_T1_V1.xlsm,Annotations,3,Person A,Idle,,,,0,153
+P010203_T1_V1.xlsm,Annotations,4,Person A,Grasp,Shaker,,,154,195
+P010203_T1_V1.xlsm,Annotations,5,Person A,Twist,Shaker_Lid,,,196,236
+P010203_T1_V1.xlsm,Annotations,6,Person A,Place_Down,Shaker_Lid,,,237,282
+P010203_T1_V1.xlsm,Annotations,7,Person A,Hold,Shaker,,,283,323
+P010203_T1_V1.xlsm,Annotations,8,Person A,Grasp,Sugar,,,324,357
+P010203_T1_V1.xlsm,Annotations,9,Person A,Drop,Sugar,,,358,400
+P010203_T1_V1.xlsm,Annotations,10,Person A,Hold,Shaker,,,401,428
+P010203_T1_V1.xlsm,Annotations,11,Person A,Hold,Shaker,Collaborative_Drop,with Person C,429,489
+P010203_T1_V1.xlsm,Annotations,12,Person A,Place_Down,Shaker,,,490,524
+P010203_T1_V1.xlsm,Annotations,13,Person A,Handover,Muddler,Collaborative_Handover,with Person B,525,570
+P010203_T1_V1.xlsm,Annotations,14,Person A,Grasp,Shaker,,,571,598
+P010203_T1_V1.xlsm,Annotations,15,Person A,Squash,,,,599,882
+P010203_T1_V1.xlsm,Annotations,16,Person A,Place_Down,Muddler,,,883,918
+P010203_T1_V1.xlsm,Annotations,17,Person A,Hold,Shaker,Collaborative_Pour,with Person B,919,1088
+P010203_T1_V1.xlsm,Annotations,18,Person A,Grasp,Shaker_Lid,,,1089,1130
+P010203_T1_V1.xlsm,Annotations,19,Person A,Twist,Shaker_Lid,,,1131,1189
+P010203_T1_V1.xlsm,Annotations,20,Person A,Shake,Shaker,,,1190,1353
+P010203_T1_V1.xlsm,Annotations,21,Person A,Hold,Shaker,,,1354,1386
+P010203_T1_V1.xlsm,Annotations,22,Person A,Twist,Shaker_Lid,,,1387,1434
+P010203_T1_V1.xlsm,Annotations,23,Person A,Place_Down,Shaker_Lid,,,1435,1482
+P010203_T1_V1.xlsm,Annotations,24,Person A,Handover,Shaker,Collaborative_Handover,with Person B,1483,1528
+P010203_T1_V1.xlsm,Annotations,25,Person A,Idle,,,,1529,1566
+P010203_T1_V1.xlsm,Annotations,26,Person A,Grasp,Glass,,,1567,1610
+P010203_T1_V1.xlsm,Annotations,27,Person A,Hold,Glass,,,1611,1673
+P010203_T1_V1.xlsm,Annotations,28,Person A,Hold,Glass,Collaborative_Pour,with Person B,1674,1826
+P010203_T1_V1.xlsm,Annotations,29,Person A,Hold,Glass,,,1827,2070
+P010203_T1_V1.xlsm,Annotations,32,Person B,Idle,,,,0,197
+P010203_T1_V1.xlsm,Annotations,33,Person B,Grasp,Sugar_Container,,,198,233
+P010203_T1_V1.xlsm,Annotations,34,Person B,Place_Down,Sugar_Container,,,234,266
+P010203_T1_V1.xlsm,Annotations,35,Person B,Idle,,,,267,478
+P010203_T1_V1.xlsm,Annotations,36,Person B,Grasp,Muddler,,,479,524
+P010203_T1_V1.xlsm,Annotations,37,Person B,Handover,Muddler,Collaborative_Handover,with Person A,525,564
+P010203_T1_V1.xlsm,Annotations,38,Person B,Idle,,,,565,614
+P010203_T1_V1.xlsm,Annotations,39,Person B,Grasp,Alcohol_Bottle,,,615,650
+P010203_T1_V1.xlsm,Annotations,40,Person B,Hold,Alcohol_Bottle,Collaborative_Twist,with Person C,651,734
+P010203_T1_V1.xlsm,Annotations,41,Person B,Hold,Alcohol_Bottle,,,735,915
+P010203_T1_V1.xlsm,Annotations,42,Person B,Pour,Alcohol,Collaborative_Pour,with Person A,916,1075
+P010203_T1_V1.xlsm,Annotations,43,Person B,Hold,Alcohol_Bottle,Collaborative_Twist,with Person C,1076,1204
+P010203_T1_V1.xlsm,Annotations,44,Person B,Place_Down,Alcohol_Bottle,,,1205,1266
+P010203_T1_V1.xlsm,Annotations,45,Person B,Idle,,,,1267,1481
+P010203_T1_V1.xlsm,Annotations,46,Person B,Handover,Shaker,Collaborative_Handover,with Person A,1482,1531
+P010203_T1_V1.xlsm,Annotations,47,Person B,Pour,Cocktail,,,1532,1665
+P010203_T1_V1.xlsm,Annotations,48,Person B,Pour,Cocktail,Collaborative_Pour,with Person A,1666,1820
+P010203_T1_V1.xlsm,Annotations,49,Person B,Push,Glass,,,1821,1850
+P010203_T1_V1.xlsm,Annotations,50,Person B,Pour,Cocktail,,,1851,1940
+P010203_T1_V1.xlsm,Annotations,51,Person B,Place_Down,Shaker,,,1941,2004
+P010203_T1_V1.xlsm,Annotations,52,Person B,Idle,,,,2005,2070
+P010203_T1_V1.xlsm,Annotations,55,Person C,Idle,,,,0,148
+P010203_T1_V1.xlsm,Annotations,56,Person C,Grasp,Knife,,,149,200
+P010203_T1_V1.xlsm,Annotations,57,Person C,Cut,Lime,,,201,275
+P010203_T1_V1.xlsm,Annotations,58,Person C,Place_Down,Knife,,,276,306
+P010203_T1_V1.xlsm,Annotations,59,Person C,Idle,,,,307,399
+P010203_T1_V1.xlsm,Annotations,60,Person C,Grasp,Lime,,,400,436
+P010203_T1_V1.xlsm,Annotations,61,Person C,Drop,Lime,Collaborative_Drop,with Person A,437,486
+P010203_T1_V1.xlsm,Annotations,62,Person C,Idle,,,,487,633
+P010203_T1_V1.xlsm,Annotations,63,Person C,Twist,Bottle_Cap,Collaborative_Twist,with Person B,634,733
+P010203_T1_V1.xlsm,Annotations,64,Person C,Place_Down,Bottle_Cap,,,734,766
+P010203_T1_V1.xlsm,Annotations,65,Person C,Idle,,,,767,1040
+P010203_T1_V1.xlsm,Annotations,66,Person C,Grasp,Bottle_Cap,,,1041,1091
+P010203_T1_V1.xlsm,Annotations,67,Person C,Twist,Bottle_Cap,Collaborative_Twist,with Person B,1092,1208
+P010203_T1_V1.xlsm,Annotations,68,Person C,Idle,,,,1209,2070
