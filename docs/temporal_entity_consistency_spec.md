@@ -21,10 +21,11 @@ re-identification.
 
 ## 2. Input contract
 
-The implementation accepts either the `video_general_obj_det_finished.zip`
-archive produced for transfer/storage or its extracted
-`video_general_obj_det_finished` directory. ZIP input is extracted to a
-temporary directory before evaluation. Each input JSON file must contain a
+By default, the implementation copies `video_general_obj_det_finished.zip`
+from Google Drive to `/content/video_general_obj_det_finished.zip` before
+processing it. It also accepts an explicitly configured local archive or its
+extracted `video_general_obj_det_finished` directory. ZIP input is extracted
+to a temporary directory before evaluation. Each input JSON file must contain a
 `detected_objects` mapping. Each entry in
 the mapping represents one track and must provide:
 
