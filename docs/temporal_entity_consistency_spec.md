@@ -186,8 +186,9 @@ Scores should be presented separately rather than combined into a single
 index: MTC captures within-track interruptions, whereas OCC captures changes
 in the number of active entities.
 
-The accompanying notebook writes a single archive to
-`MyDrive/AA-STAL/evaluation/temporal_entity_consistency_metrics.zip`. The
-archive contains `metrics.csv` with the dataset-level and per-video report,
+The accompanying notebook writes a single archive alongside the other pipeline
+artifacts at
+`MyDrive/AA-STAL/data_pipeline/DATA_ROOT/temporal_entity_consistency_metrics.zip`.
+The archive contains `metrics.csv` with the dataset-level and per-video report,
 plus `per_track_continuity.csv`,
 `per_class_object_count_consistency.csv`, and `diagnostics.csv`.
