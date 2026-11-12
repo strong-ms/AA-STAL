@@ -61,9 +61,6 @@ The scoring method and JSON contracts are documented in [`docs/person_object_ass
 
 The final cell of `person_object_association.ipynb` generates sampled diagnostic frames under `DATA_ROOT/person_object_association_visualizations/`. People are drawn in red, temporally accepted objects in green, and each accepted association is represented by a yellow line and its frame-level score. The visualization step never modifies the original frames.
 
-## Reference
-This work is part of a Master's Degree in Computer Science at the University of Camerino (UNICAM) by Ludovico Ferrara.
-
 ## Main External References
 ```
 @inproceedings{DBLP:conf/icra/DeigmoellerAHTBGWOZDG26,
