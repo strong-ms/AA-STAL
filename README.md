@@ -1,6 +1,15 @@
-# An Auto-Annotation Pipeline for Action Detection
+# ViOLET
 
 This repository contains the code and resources for the master's thesis work "An Auto-Annotation Pipeline for Action Detection". It implements an offline, zero-shot auto-annotation pipeline that processes raw videos to produce annotations for human actions and object interactions, and object-centric event logs for process mining.
+
+ViOLET builds on the original [AA-STAL repository](https://github.com/ludovicoferrara/AA-STAL) by Ludovico Ferrara. The Git history preserves that provenance.
+
+## Evaluation branches
+
+- `main` contains the shared pipeline and the TUM Kitchen evaluation code under `evaluation/TUMKitchen/`.
+- `eval/ground` contains the Ground-specific pipeline configuration and evaluation, including its [instructions](https://github.com/strong-ms/ViOLET/blob/eval/ground/evaluation/Ground/README.md), notebooks, scripts, and results.
+
+For the Ground evaluation, check out `eval/ground` and follow its instructions. Use `main` for the TUM Kitchen evaluation. The Ground branch changes dataset paths, action labels, and the recognition prompt; running the `main` action-labeling notebook does not reproduce Ground results. A paper release should identify the exact commit of each branch used for the reported results.
 
 ## Pipeline Architecture
 
@@ -23,17 +32,20 @@ The repository is organized into three main directories:
         *   `person_object_association.ipynb`: Associates tracked objects with people from the detection JSON files; it does not rerun detection or tracking.
         *   `action_labeling.ipynb`: Runs the Qwen3-VL action recognition inference.
         *   `process_mining_formatting.ipynb`: Adapts the pipeline output into event logs for process mining tasks.
-*   **`evaluation/`**: Contains scripts to evaluate the direct results and metrics (e.g., IoU, F1-score) of the auto-annotation pipeline against a ground-truth dataset.
+        *   `convert_log.ipynb`: Converts event logs for downstream process mining analysis.
+*   **`evaluation/`**: Contains the TUM Kitchen validation on `main`. On `eval/ground`, it also contains the Ground activity recognition evaluation, object-centric event-log exporter, temporal entity consistency notebook, and saved results.
 
 ## Environment and Execution
 
 The entire workflow has been designed and tested on **Google Colab**, utilizing Google Drive for storage and file management. 
 
-To replicate the experiments on the ([Penn Action Dataset](https://dreamdragon.github.io/PennAction/)) or ([TUM Kitchen Dataset](https://ias.uni-bremen.de/ias/research/software/kitchen-activity-data)):
+To run the pipeline for the [TUM Kitchen Dataset](https://ias.uni-bremen.de/ias/research/software/kitchen-activity-data):
 1. Clone this repository into your Google Drive environment.
 2. Create the `DATA_ROOT` directory inside `data_pipeline/` and upload the dataset.
 3. Open the files in `data_pipeline/jupiter_notebooks/` using Google Colab.
 4. Execute the notebooks sequentially following the pipeline architecture (Pre-processing -> Object Detection -> Person–Object Association -> Action Labeling -> Process Mining Formatting).
+
+For Ground, switch to `eval/ground` first. Follow the [Ground evaluation guide](https://github.com/strong-ms/ViOLET/blob/eval/ground/evaluation/Ground/README.md) for its input archives, Ground-specific notebook settings, evaluation notebook, and event-log outputs. The action-recognition and temporal-consistency evaluations are separate from the sequential generation pipeline.
 
 The association stage can also be run without Jupyter:
 
@@ -52,16 +64,23 @@ This work is part of a Master's Degree in Computer Science at the University of 
 
 ## Main External References
 ```
-@INPROCEEDINGS{pennaction,
-  author={Zhang, Weiyu and Zhu, Menglong and Derpanis, Konstantinos G.},
-  booktitle={2013 IEEE International Conference on Computer Vision}, 
-  title={From Actemes to Action: A Strongly-Supervised Representation for Detailed Action Understanding}, 
-  year={2013},
-  volume={},
-  number={},
-  pages={2248-2255},
-  keywords={Spatiotemporal phenomena;Training;Trajectory;Visualization;Semantics;Cameras;Context;action classification;action detection},
-  doi={10.1109/ICCV.2013.280}}
+@inproceedings{DBLP:conf/icra/DeigmoellerAHTBGWOZDG26,
+  author={Joerg Deigmoeller and Nakul Agarwal and Stephan Hasler and Daniel Tanneberg and Anna Belardinelli and Reza Ghoddoosian and Chao Wang and Felix Ocker and Fan Zhang and Behzad Dariush and Michael Gienger},
+  title={{MERGE:} Guided Vision-Language Models for Multi-Actor Event Reasoning and Grounding in Human-Robot Interaction},
+  booktitle={{IEEE} International Conference on Robotics and Automation},
+  pages={2465--2472},
+  year={2026}
+}
+```
+
+```
+@article{foundationmotion,
+  author={Yulu Gan and Ligeng Zhu and Dandan Shan and Baifeng Shi and Hongxu Yin and Boris Ivanovic and Song Han and Trevor Darrell and Jitendra Malik and Marco Pavone and Boyi Li},
+  title={FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos},
+  journal={CoRR},
+  volume={abs/2512.10927},
+  year={2025}
+}
 ```
 
 ```
