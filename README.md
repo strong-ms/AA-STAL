@@ -2,8 +2,6 @@
 
 This repository contains the code and resources for the master's thesis work "An Auto-Annotation Pipeline for Action Detection". It implements an offline, zero-shot auto-annotation pipeline that processes raw videos to produce annotations for human actions and object interactions, and object-centric event logs for process mining.
 
-ViOLET builds on the original [AA-STAL repository](https://github.com/ludovicoferrara/AA-STAL) by Ludovico Ferrara. The Git history preserves that provenance.
-
 ## Evaluation branches
 
 - `main` contains the shared pipeline and the TUM Kitchen evaluation code under `evaluation/TUMKitchen/`.
@@ -12,6 +10,10 @@ ViOLET builds on the original [AA-STAL repository](https://github.com/ludovicofe
 For the Ground evaluation, check out `eval/ground` and follow its instructions. Use `main` for the TUM Kitchen evaluation. The Ground branch changes dataset paths, action labels, and the recognition prompt; running the `main` action-labeling notebook does not reproduce Ground results. A paper release should identify the exact commit of each branch used for the reported results.
 
 ## Pipeline Architecture
+
+[![ViOLET pipeline from video and domain knowledge to an object-centric event log](assets/pipeline.png)](assets/pipeline.png)
+
+*Figure: High-level ViOLET pipeline. The implementation also runs person-object association before activity recognition to provide object context.*
 
 The pipeline consists of the following sequential stages:
 1. **Data Pre-processing**: Raw videos are segmented based on shot changes, and 30 Frames Per Second (FPS) are extracted. Unsuitable or blurry clips are discarded using the VGGT model.
