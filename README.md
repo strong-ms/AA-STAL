@@ -104,16 +104,6 @@ The final cell of `person_object_association.ipynb` generates sampled diagnostic
 ```
 
 ```
-@article{foundationmotion,
-  author={Yulu Gan and Ligeng Zhu and Dandan Shan and Baifeng Shi and Hongxu Yin and Boris Ivanovic and Song Han and Trevor Darrell and Jitendra Malik and Marco Pavone and Boyi Li},
-  title={FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos},
-  journal={CoRR},
-  volume={abs/2512.10927},
-  year={2025}
-}
-```
-
-```
 @inproceedings{tumdataset,
   title={The TUM kitchen data set of everyday manipulation activities for motion tracking and action recognition},
   author={Tenorth, Moritz and Bandouch, Jan and Beetz, Michael},
