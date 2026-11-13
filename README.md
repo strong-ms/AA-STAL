@@ -24,7 +24,7 @@ The pipeline consists of the following sequential stages:
 
 ## Technical details: detection and evaluation
 
-The detection notebook consolidates GroundingDINO boxes returned for different text prompts. For boxes $A$ and $B$, intersection over union is $\operatorname{IoU}(A,B)=|A\cap B|/|A\cup B|$. Candidates are sorted by confidence; class-aware non-maximum suppression (NMS) keeps the highest-scoring box and discards a later box of the same class when their IoU exceeds **0.45**. A subsequent filter retains scores of at least **0.15** and removes detections whose IoU with a retained box exceeds **0.45**, or same-class detections whose box centers are less than **50 pixels** apart. Finally, a smaller same-class box is removed when more than **80% of its area** lies inside a retained larger box. The second filter's IoU check is independent of class, unlike the initial NMS step.
+The detection notebook consolidates GroundingDINO boxes returned for different text prompts. For boxes $A$ and $B$, intersection over union (IoU) is $|A\cap B|/|A\cup B|$. Candidates are sorted by confidence; class-aware non-maximum suppression (NMS) keeps the highest-scoring box and discards a later box of the same class when their IoU exceeds **0.45**. A subsequent filter retains scores of at least **0.15** and removes detections whose IoU with a retained box exceeds **0.45**, or same-class detections whose box centers are less than **50 pixels** apart. Finally, a smaller same-class box is removed when more than **80% of its area** lies inside a retained larger box. The second filter's IoU check is independent of class, unlike the initial NMS step.
 
 The cross-prompt NMS step is implemented as this confidence-ordered greedy procedure:
 
