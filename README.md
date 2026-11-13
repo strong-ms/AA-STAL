@@ -24,7 +24,7 @@ The pipeline consists of the following sequential stages:
 
 ## Technical details: detection and evaluation
 
-The detection notebook consolidates GroundingDINO boxes returned for different text prompts. For boxes $A$ and $B$, intersection over union (IoU) is $|A\cap B|/|A\cup B|$. Candidates are sorted by confidence; class-aware non-maximum suppression (NMS) keeps the highest-scoring box and discards a later box of the same class when their IoU exceeds **0.45**. A subsequent filter retains scores of at least **0.15** and removes detections whose IoU with a retained box exceeds **0.45**, or same-class detections whose box centers are less than **50 pixels** apart. Finally, a smaller same-class box is removed when more than **80% of its area** lies inside a retained larger box. The second filter's IoU check is independent of class, unlike the initial NMS step.
+The detection notebook consolidates GroundingDINO boxes returned for different text prompts. For boxes `A` and `B`, intersection over union is `IoU(A, B) = area(A intersect B) / area(A union B)`. Candidates are sorted by confidence; class-aware non-maximum suppression (NMS) keeps the highest-scoring box and discards a later box of the same class when their IoU exceeds **0.45**. A subsequent filter retains scores of at least **0.15** and removes detections whose IoU with a retained box exceeds **0.45**, or same-class detections whose box centers are less than **50 pixels** apart. Finally, a smaller same-class box is removed when more than **80% of its area** lies inside a retained larger box. The second filter's IoU check is independent of class, unlike the initial NMS step.
 
 The cross-prompt NMS step is implemented as this confidence-ordered greedy procedure:
 
@@ -39,9 +39,19 @@ for candidate in sort_by_confidence_descending(raw_candidates):
 
 The threshold comparison is strict (`> 0.45`), so boxes with IoU exactly 0.45 are retained. The later confidence, center-distance, and containment checks are separate passes; see [`obj_det_w_dino.ipynb`](data_pipeline/jupiter_notebooks/obj_det_w_dino.ipynb) for the executable implementation.
 
-For activity class $c$, evaluation counts true positives $TP_c$, false positives $FP_c$, and false negatives $FN_c$ over annotated frames. Precision is $P_c=TP_c/(TP_c+FP_c)$, recall is $R_c=TP_c/(TP_c+FN_c)$, and $F1_c=2P_cR_c/(P_c+R_c)$; undefined ratios are scored as zero. Macro-F1 averages $F1_c$ equally over classes, whereas micro-F1 first sums the three counts over classes and then computes F1. Ground evaluation also reports support-weighted F1, $\sum_c n_c F1_c/\sum_c n_c$, where $n_c$ is the number of ground-truth frames for class $c$.
+For each activity class `c`, evaluation counts true positives (`TP_c`), false positives (`FP_c`), and false negatives (`FN_c`) over annotated frames:
 
-TUM Kitchen permits multiple labels per frame. For true and predicted label sets $Y_t$ and $\hat Y_t$, subset accuracy averages $\mathbf{1}[Y_t=\hat Y_t]$, and Jaccard similarity averages $|Y_t\cap\hat Y_t|/|Y_t\cup\hat Y_t|$; an empty union scores one. Sequence evaluation collapses consecutive repeated activities and reports normalized edit similarity $1-d_{edit}(\sigma_{gt},\sigma_{pred})/\max(|\sigma_{gt}|,|\sigma_{pred}|)$, with two empty sequences scoring one. Where available, longest-common-subsequence (LCS) precision and recall divide the LCS length by the predicted and reference sequence lengths, respectively; LCS-F1 is their harmonic mean.
+```text
+precision_c = TP_c / (TP_c + FP_c)
+recall_c    = TP_c / (TP_c + FN_c)
+F1_c        = 2 * precision_c * recall_c / (precision_c + recall_c)
+```
+
+Undefined ratios are scored as zero. Macro-F1 is the arithmetic mean of `F1_c` over classes. Micro-F1 sums `TP_c`, `FP_c`, and `FN_c` over classes before applying the same formulas. Ground evaluation also reports support-weighted F1: `sum(n_c * F1_c) / sum(n_c)`, where `n_c` is the number of ground-truth frames for class `c`.
+
+TUM Kitchen permits multiple labels per frame. For true and predicted label sets `Y_t` and `Y_pred_t`, subset accuracy is the fraction of frames where the sets are equal. Jaccard similarity averages `size(Y_t intersect Y_pred_t) / size(Y_t union Y_pred_t)` over frames; an empty union scores one.
+
+Sequence evaluation collapses consecutive repeated activities. For reference sequence `S_gt` and predicted sequence `S_pred`, normalized edit similarity is `1 - edit_distance(S_gt, S_pred) / max(length(S_gt), length(S_pred))`; two empty sequences score one. Where available, longest-common-subsequence (LCS) precision is `LCS_length / length(S_pred)`, LCS recall is `LCS_length / length(S_gt)`, and LCS-F1 is their harmonic mean.
 
 ## Repository Structure
 
